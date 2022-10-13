@@ -1,0 +1,9 @@
+function print_cat_entry(cat,ii)
+
+fprintf(1,sprintf('%s:\tM%4.2f at %s at %8.4f / %8.4f / %8.4f\n', ...
+    cat.str.title, ...
+    cat.m(ii),cat.t0(ii), ...
+    cat.x(ii),cat.y(ii),cat.alt(ii)))
+
+
+
